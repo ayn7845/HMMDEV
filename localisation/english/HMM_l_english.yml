@@ -5,7 +5,9 @@
  no_grind_desc:0 "No Grinding Generals"
  pre_grind:0 "No XP Gain"
  pre_grind_desc:0 "No Grinding Pregrinded Generals"
- tank_pre_grind:0 "Tank Pregrind" 
+ tank_pre_grind:0 "Tank Pregrind"
+ sov_inf_gen:0 "Infantry General"
+ sov_inf_gen_desc:0 "Capable Commander to lead our vast Army"
 
 
 
