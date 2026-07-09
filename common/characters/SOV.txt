@@ -171,7 +171,7 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { panzer_leader trickster trait_engineer skilled_staffer cavalry_leader commando pre_grind }
+			traits = { panzer_leader trickster urban_assault_specialist trait_engineer skilled_staffer cavalry_leader commando pre_grind }
 			skill = 6
 			attack_skill = 6
 			defense_skill = 10
@@ -218,7 +218,7 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { panzer_leader trickster trait_engineer skilled_staffer cavalry_leader commando pre_grind }
+			traits = { panzer_leader trickster trait_engineer skilled_staffer cavalry_leader urban_assault_specialist commando pre_grind }
 			skill = 6
 			attack_skill = 6
 			defense_skill = 10
@@ -434,7 +434,7 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { panzer_leader trickster trait_engineer skilled_staffer cavalry_leader commando pre_grind }
+			traits = { panzer_leader trickster trait_engineer skilled_staffer urban_assault_specialist cavalry_leader commando pre_grind }
 			skill = 6
 			attack_skill = 6
 			defense_skill = 10
@@ -1026,7 +1026,7 @@ characters = {
 			traits = { army_CombinedArms_2}
 		}
 		corps_commander = {
-			traits = { brilliant_strategist  winter_specialist panzer_leader trickster trait_engineer cavalry_leader organizer commando unyielding_defender pre_grind }
+			traits = { brilliant_strategist  winter_specialist panzer_leader trickster trait_engineer cavalry_leader urban_assault_specialist organizer commando unyielding_defender pre_grind }
 			skill = 8
 			attack_skill = 5
 			defense_skill = 10
