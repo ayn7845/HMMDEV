@@ -1,0 +1,68 @@
+characters = {
+	POL_anna_andersson = {
+		name="Anastasia Romanov"
+		portraits = {
+			civilian = {
+				large="GFX_portrait_POL_anna_anderson"
+			}
+		}
+		country_leader = {
+			ideology=despotism
+			traits = { the_last_romanov_maybe }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	POL_karl_albrecht = {
+		name=POL_karl_albrecht
+		portraits = {
+			civilian = {
+				large="GFX_portrait_POL_karl_albrecht"
+			}
+		}
+		country_leader = {
+			ideology=despotism
+			traits = { patriot_king }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POL_ignacy_moscicki = {
+		name=POL_ignacy_moscicki
+		portraits = {
+			army={
+				small=GFX_portrait_POL_ignacy_moscicki_small
+			}
+			civilian = {
+				large="GFX_portrait_POL_ignacy_moscicki"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_ignacy_moscicki
+			available = {
+				OR = {
+					has_completed_focus = POL_ozon 
+					has_completed_focus = POL_dissolve_the_bbwr 
+				}
+			}
+			allowed = {
+				original_tag = POL
+				OR = {
+					has_dlc = "No Step Back"
+					has_dlc = "Poland: United and Ready"
+				}
+			}
+			traits = {
+				the_king_of_the_castle 
+			}
+		}
+		
+		country_leader = {
+			ideology=oligarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
