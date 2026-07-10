@@ -130,6 +130,7 @@ NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP = "HMM"
 NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "HMM"
 
 NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0                     -- Removed for game stability/reducing chance of desync
+NDefines.NCountry.SURRENDER_LIMIT_REDUCTION_PER_COLLABORATION = 0.30 --each percent of collaboration will lower surrender limit by this percentage
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 9999						    -- Unlimited special forces
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.00                        -- Unlimited special forces
 NDefines.NCountry.SCORCHED_EARTH_STATE_COST = 5000	                    -- No scourched earth
