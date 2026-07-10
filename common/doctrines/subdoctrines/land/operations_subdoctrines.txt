@@ -32,7 +32,7 @@ mission_type_tactics = {
         always = yes
     }
     # EFFECTS
-    command_power_gain = 0.02
+    command_power_gain = 0.2
     category_all_infantry = {
         max_organisation = 15
     }
@@ -92,7 +92,20 @@ last_stand = {
     xp_type = army
 
     available = {
-        always = yes
+        if = {
+            limit = {
+                NOT = {
+                    original_tag = INS
+                }
+            }
+            has_defensive_war = yes
+        }
+        else = {
+            OR = {
+                has_defensive_war = yes
+                has_country_flag = INS_revolution_has_started
+            }
+        }
     }
     # EFFECTS
     conscription = 0.05
