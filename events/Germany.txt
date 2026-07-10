@@ -6503,7 +6503,7 @@ country_event = {
 				}
 			}
 			ENG = {
-				add_war_support = 0.1 #just not cricket
+				add_war_support = 0.15 #just not cricket
 			}
 		}
 		if = {
@@ -6515,7 +6515,19 @@ country_event = {
 				}
 			}
 			FRA = {
-				add_war_support = 0.1
+				add_war_support = 0.15
+			}
+		}
+		if = {
+			limit = {
+				USA = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+			USA = {
+				add_war_support = 0.15
 			}
 		}
 		if = {
