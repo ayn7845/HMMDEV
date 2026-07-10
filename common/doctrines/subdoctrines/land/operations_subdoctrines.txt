@@ -91,21 +91,8 @@ last_stand = {
     xp_cost = 100
     xp_type = army
 
-    available = {
-        if = {
-            limit = {
-                NOT = {
-                    original_tag = INS
-                }
-            }
-            has_defensive_war = yes
-        }
-        else = {
-            OR = {
-                has_defensive_war = yes
-                has_country_flag = INS_revolution_has_started
-            }
-        }
+    available = { 
+        always = yes
     }
     # EFFECTS
     conscription = 0.05
