@@ -2,5 +2,5 @@ version="1.19.*"
 tags={
 	"Historical"
 }
-name="HMM SUMMER DEV"
+name="HMM - TEMP"
 supported_version="1.19.2.0"
